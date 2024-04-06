@@ -1,0 +1,43 @@
+#! /bin/bash
+
+echo -e " welcome to flm \t class and \n we learining devops"
+
+
+--------------------
+
+#! /bin/bash
+
+name=sreenu
+company=LTI
+echo -e " my name is $name  and \n my company is $company"
+
+
+#! /bin/bash
+
+echo "please enter your name "
+read ddd
+
+echo "please enter your course"
+read aaa
+
+echo "my name is $ddd, and i am learning $aaa"
+
+#! /bin/bash
+
+echo "please enter your user name "
+read user
+
+echo "please enter your password"
+read pass
+
+echo "my username is $user, and my password is $pass"
+
+
+#! /bin/bash
+
+echo "please enter your user name "
+read user
+
+read -sp "please enter your password: " pass
+
+echo -e " \n my username is $user, and my password is $pass"
