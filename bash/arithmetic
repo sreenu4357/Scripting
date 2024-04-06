@@ -1,0 +1,9 @@
+#! /bin/bash
+
+n1=100
+n2=25
+
+echo "add of two numbers: "$(($n1+$n2))
+echo "sub of two numbers: "$(($n1-$n2))
+echo "mul of two numbers: "$(($n1*$n2))
+echo "div of two numbers: "$(($n1/$n2))
