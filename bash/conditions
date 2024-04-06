@@ -1,0 +1,120 @@
+#! /bin/bash
+
+n1=100
+if [[ $n1 -eq 100 ]];
+then
+        echo "both values are same"
+else
+        echo "values are not equal"
+fi
+
+------ 
+
+  #! /bin/bash
+
+n1=50
+if [[ $n1 -eq 100 ]];
+then
+        echo "both values are same"
+else
+        echo "values are not equal"
+
+fi
+
+_____________
+
+#! /bin/bash
+
+n1=50
+if [[ $n1 -lt 100 ]];
+then
+        echo "true"
+else
+        echo "false"
+
+fi
+________________________________
+
+#! /bin/bash
+
+n1=200
+if [[ $n1 -gt 100 ]];
+then
+        echo "true"
+else
+        echo "false"
+
+fi
+____________________________
+
+#! /bin/bash
+
+n1=200
+if [[ $n1 -ge 200 ]];
+then
+        echo "true"
+else
+        echo "false"
+
+fi
+___________________________________
+
+#! /bin/bash  - empty string
+
+name=""
+
+if [[ -z $name ]];
+then
+        echo "it is  empty string"
+fi
+
+______________________
+
+name="sreenu"
+
+if [[ -n $name ]];
+then
+        echo "it is not empty string"
+fi
+
+  __________________________________
+
+#! /bin/bash
+
+user1="sreenu"
+user2="rahul"
+
+if [[ $user1 == $user2 ]];
+then
+        echo "both users are same"
+else
+        echo "both users are not same"
+fi
+
+___________________________-
+  #! /bin/bash
+
+user1="sreenu"
+user2="rahul"
+
+if [[ $user1 != $user2 ]];
+then
+        echo "both users are different"
+else
+        echo "both users are same"
+fi
+________________________________________
+
+#! /bin/bash
+
+user1=123
+user2=123
+
+if [[ $user1 -eq $user2 ]];
+then
+        echo "both numbers are same"
+else
+        echo "both numbers are different"
+fi
+
+
