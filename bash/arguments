@@ -1,0 +1,9 @@
+#! /bin/bash
+
+echo "please enter you name: "$1
+echo "please enter you course: "$2
+echo "please enter you duration: "$3
+echo "please enter you company: "$4
+
+echo "this is all inputs: "$@
+echo "all these arguments are in present: "$0
